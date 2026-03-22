@@ -120,7 +120,7 @@ after training. They show which PCA components drive the fraud predictions most.
 
 ---
 
-## 📈 Typical Results (XGBoost on test set)
+## 📈 Results (XGBoost on test set)
 
 | Metric | Score |
 |---|---|
@@ -128,16 +128,6 @@ after training. They show which PCA components drive the fraud predictions most.
 | PR-AUC | ~0.862 |
 | F1 (fraud class) | ~0.875 |
 | Recall (fraud) | ~0.901 |
-
----
-
-## 🌟 Advanced Extensions
-
-- [ ] Threshold tuning with business cost analysis
-- [ ] SHAP waterfall plot for individual predictions in the dashboard
-- [ ] Kafka / Redis integration for true real-time streaming
-- [ ] Docker containerisation
-- [ ] REST API with FastAPI
 
 ---
 
